@@ -1,0 +1,33 @@
+{
+    "identifier": "wm.Hextosass",
+    "name": "Hex to sass",
+    "organization": "Wout Mager",
+    "description": "Converts a hex code to a easy to remember sass variable.",
+    "version": "1.0",
+    "categories": ["commands"],
+
+    "main": "main.js",
+
+    "activationEvents": [
+        "onLanguage:javascript"
+    ],
+
+    "entitlements": {
+
+    },
+
+    "commands": {
+        "editor": [
+            {
+                "title": "Convert hex to sass",
+                "command": "hex-to-sass.convertToSass",
+                "shortcut": "cmd-option-x",
+                "filters": {
+                    "syntaxes": ["scss", "sass"]
+                }
+            }
+        ]
+    },
+
+    "homepage": "https://woutmager.nl"
+}
