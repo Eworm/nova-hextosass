@@ -3,10 +3,8 @@ const colors = require('colors.js'),
     convertToRgb = require('rgb.js'),
     convertToHsl = require('hsl.js');
 
-// Invoked by the "Foobar" command
+// Invoked by the "Hex to sass" command
 nova.commands.register("hex-to-sass.convertToSass", (editor) => {
-    // Begin an edit session
-    // var position = editor.selectedRange.start;
     var selectedRanges = editor.selectedRanges.reverse();
     editor.edit(function(e) {
         for (var range of selectedRanges) {

@@ -29,5 +29,7 @@
         ]
     },
 
-    "homepage": "https://woutmager.nl"
+    "homepage": "https://woutmager.nl",
+    "bugs": "https://github.com/Eworm/nova-hextosass/issues",
+    "repository": "https://github.com/Eworm/nova-hextosass"
 }
