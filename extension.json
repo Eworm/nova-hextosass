@@ -2,7 +2,7 @@
     "identifier": "wm.Hextosass",
     "name": "Hex to sass",
     "organization": "Wout Mager",
-    "description": "Converts a hex code to a easy to remember sass variable.",
+    "description": "Converts a hex code to an easy to remember sass variable.",
     "version": "1.0",
     "categories": ["commands"],
 
